@@ -3,28 +3,28 @@
 This document outlines the detailed task list for the development and enhancement of the Post Install System, based on the objectives and roadmap defined in `PROJECT.md`.
 
 ## Phase 1: Core Framework & Interface
-*   [ ] **Project Setup**
-    *   [ ] Initialize Git repository structure.
-    *   [ ] Create standard file headers with copyright and license info.
-    *   [ ] Implement input argument parsing (if necessary).
-*   [ ] **Dependency Check**
-    *   [ ] Write a function to check if `whiptail` is installed.
-    *   [ ] Implement auto-installation of `whiptail` or exit with error if missing.
-    *   [ ] Verify root/sudo privileges at startup.
-*   [ ] **UI Implementation**
-    *   [ ] **License Display**: Create a `license` function using `whiptail --textbox` to show terms.
-    *   [ ] **Main Menu**: Develop the main navigation loop using `whiptail --menu`.
-    *   [ ] **Sub-menus**: Create placeholder structures for sub-categories (Network, Users, Software).
+*   [x] **Project Setup**
+    *   [x] Initialize Git repository structure.
+    *   [x] Create standard file headers with copyright and license info.
+    *   [x] Implement input argument parsing (if necessary).
+*   [x] **Dependency Check**
+    *   [x] Write a function to check if `whiptail` is installed.
+    *   [x] Implement auto-installation of `whiptail` or exit with error if missing.
+    *   [x] Verify root/sudo privileges at startup.
+*   [x] **UI Implementation**
+    *   [x] **License Display**: Create a `license` function using `whiptail --textbox` to show terms.
+    *   [x] **Main Menu**: Develop the main navigation loop using `whiptail --menu`.
+    *   [x] **Sub-menus**: Create placeholder structures for sub-categories (Network, Users, Software).
 
 ## Phase 2: Core Modules Implementation
-*   [ ] **System Update Module**
-    *   [ ] Create `runUpdate` function.
-    *   [ ] Implement `apt update` and `apt upgrade -y` logic.
-    *   [ ] Add error handling for network or lock issues during update.
-*   [ ] **Basic Configuration Module**
-    *   [ ] Define "Basic Configuration" scope (e.g., hostname, timezone).
-    *   [ ] Implement functions to set hostname.
-    *   [ ] Implement functions to set timezone.
+*   [x] **System Update Module**
+    *   [x] Create `runUpdate` function.
+    *   [x] Implement `apt update` and `apt upgrade -y` logic.
+    *   [x] Add error handling for network or lock issues during update.
+*   [x] **Basic Configuration Module**
+    *   [x] Define "Basic Configuration" scope (e.g., hostname, timezone).
+    *   [x] Implement functions to set hostname.
+    *   [x] Implement functions to set timezone.
 
 ## Phase 3: Advanced Modules (Modular Capability)
 *   [ ] **User & Group Management**
