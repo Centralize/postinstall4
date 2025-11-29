@@ -22,8 +22,8 @@ To run this tool, you need:
 
 1.  **Clone the Repository**
     ```bash
-    git clone https://github.com/your-repo/postinstall.git
-    cd postinstall
+    git clone https://github.com/Centralize/postinstall4.git
+    cd postinstall4
     ```
 
 2.  **Make the Script Executable**
